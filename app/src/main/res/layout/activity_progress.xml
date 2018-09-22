@@ -9,46 +9,50 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
         android:gravity="center"
-        >
+        android:orientation="vertical">
 
         <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Show User"
-        android:id="@+id/txt_user"
-        />
-        <TextView
+            android:id="@+id/txt_user"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Show Pass"
+            android:text="Show User" />
+
+        <TextView
             android:id="@+id/txt_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            />
+            android:text="Show Pass" />
 
 
         <Button
+            android:id="@+id/btn_progressShow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Show Progressbar"
-            android:id="@+id/btn_progressShow"
             android:layout_marginTop="20dp"
+            android:text="Show Progressbar"
 
             />
+
         <ProgressBar
+            android:id="@+id/progressbar"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_marginVertical="20dp"
-            android:id="@+id/progressbar"
-            />
+            android:layout_marginVertical="20dp" />
+
+        <Button
+            android:id="@+id/btn_progressHide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hide Progressbar" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hide Progressbar"
-            android:id="@+id/btn_progressHide"
-            />
+            android:layout_gravity="bottom"
+            android:id="@+id/btn_logout"
+            android:text="Logout" />
 
     </LinearLayout>
 

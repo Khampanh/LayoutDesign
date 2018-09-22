@@ -40,12 +40,8 @@ public class MainActivity extends AppCompatActivity {
                 } else{
 
                     Toast.makeText(MainActivity.this,"Please Insert Username And Password Again",
-                            Toast.LENGTH_SHORT).show();
+                            Toast.LENGTH_LONG).show();
                 }
-
-
-
-
 
             }
         });
