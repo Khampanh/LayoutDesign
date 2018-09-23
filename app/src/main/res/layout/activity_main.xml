@@ -16,7 +16,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="50dp"
+        android:gravity="center"
         android:orientation="vertical"
+        android:background="#7fffffff"
 
         >
 
@@ -47,12 +49,21 @@
 
         <Button
             android:id="@+id/btn_login"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginHorizontal="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
             android:layout_marginTop="20dp"
             android:text="Login"
             android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_go_Cal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Go to Calculate"
+
+            />
 
 
     </LinearLayout>

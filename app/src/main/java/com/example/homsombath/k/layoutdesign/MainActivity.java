@@ -24,6 +24,19 @@ public class MainActivity extends AppCompatActivity {
         editTextUser = findViewById(R.id.edt_user);
         editTextPass = findViewById(R.id.edt_password);
 
+        Button buttonGoCal = findViewById(R.id.btn_go_Cal);
+
+        buttonGoCal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentCal = new Intent(MainActivity.this, CalculateActivity.class);
+                startActivity(intentCal);
+            }
+        });
+
+
+
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
